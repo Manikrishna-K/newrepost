@@ -1,0 +1,12 @@
+{
+  "name": "kartly",
+  "version": "1.0.0",
+  "description": "Full-stack e-commerce store (Node.js + Express + SQLite + vanilla JS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "reset": "node -e \"require('fs').rmSync('data',{recursive:true,force:true});console.log('Database removed. Run npm start to re-seed.')\""
+  },
+  "engines": { "node": ">=22.13.0" },
+  "dependencies": { "express": "^4.21.2" }
+}
